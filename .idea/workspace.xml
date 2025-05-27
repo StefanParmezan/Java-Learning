@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a113ef8-58fe-4fd3-967d-59f986e94ae9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/DatabaseConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/JavaSyntax/JavaSyntax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/MultiThreading/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/MultiThreading/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/MultiThreading/RunnableExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Synchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Synchronized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Wait/Wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Wait/Wait.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "StefanParmezan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/StefanParmezan/Java-Learning.git",
+    "accountId": "dd76d108-9948-4a68-986d-6aae84da9376"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2t1Idq92NPmV7GCXGLdOJC483L7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Abstract.Main.executor": "Run",
+    "Application.CollectionsFramework.Compare.Main.executor": "Run",
+    "Application.CollectionsFramework.Iterator.Main.executor": "Run",
+    "Application.CollectionsFramework.Map.Main.executor": "Run",
+    "Application.CollectionsFramework.Queue.Main.executor": "Run",
+    "Application.DataTypes.Main.executor": "Run",
+    "Application.EnumsAndRecords.Main.executor": "Run",
+    "Application.Generics.Main.executor": "Run",
+    "Application.HelloThreads.executor": "Run",
+    "Application.IOoperations.Code.Main.executor": "Run",
+    "Application.Inheritance.Main.executor": "Run",
+    "Application.Input.executor": "Run",
+    "Application.Interfaces.Main.executor": "Run",
+    "Application.JavaSyntax.executor": "Run",
+    "Application.LambdaExpressions.AnimalsExample.Main.executor": "Run",
+    "Application.LambdaExpressions.CalculatrorExample.Main.executor": "Run",
+    "Application.LambdaExpressions.Main.executor": "Run",
+    "Application.LearnMaks.Main.executor": "Run",
+    "Application.Magazine.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MyProgram.executor": "Run",
+    "Application.OOP.Main.executor": "Run",
+    "Application.Optional.Main.executor": "Run",
+    "Application.RegexCrosswordSolver.executor": "Run",
+    "Application.Registration.executor": "Run",
+    "Application.Synchronized.executor": "Run",
+    "Application.g.Main.executor": "Run",
+    "Application.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/StefanParmezan/Desktop/Home/Programming/JavaLearning",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "copyright",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\StefanParmezan\Desktop\Home\MyFiles\Programming\Algoritms\src\other" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Synchronized">
+    <configuration name="CollectionsFramework.Compare.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsFramework.Compare.Main" />
+      <module name="Algoritms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CollectionsFramework.Compare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.HelloThreads" />
+      <module name="Algoritms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultiThreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearnMaks.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LearnMaks.Main" />
+      <module name="Algoritms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LearnMaks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.Main" />
+      <module name="Algoritms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultiThreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Synchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Synchronized.Synchronized" />
+      <module name="Algoritms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multithreading.Methods.Synchronized.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Synchronized" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.LearnMaks.Main" />
+        <item itemvalue="Application.HelloThreads" />
+        <item itemvalue="Application.CollectionsFramework.Compare.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a113ef8-58fe-4fd3-967d-59f986e94ae9" name="Changes" comment="" />
+      <created>1739513246512</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739513246512</updated>
+      <workItem from="1739513247549" duration="4807000" />
+      <workItem from="1739551046302" duration="1748000" />
+      <workItem from="1739552818426" duration="943000" />
+      <workItem from="1739558429370" duration="2000" />
+      <workItem from="1739632753861" duration="42000" />
+      <workItem from="1739785178369" duration="2189000" />
+      <workItem from="1739972387925" duration="3016000" />
+      <workItem from="1739990269885" duration="24000" />
+      <workItem from="1740055201987" duration="19000" />
+      <workItem from="1740748068973" duration="5308000" />
+      <workItem from="1740832513958" duration="2387000" />
+      <workItem from="1740896924493" duration="14000" />
+      <workItem from="1743010605378" duration="133000" />
+      <workItem from="1743235537919" duration="2626000" />
+      <workItem from="1743580530309" duration="1280000" />
+      <workItem from="1743592909876" duration="11000" />
+      <workItem from="1743609470877" duration="1100000" />
+      <workItem from="1743685571687" duration="10000" />
+      <workItem from="1744120572368" duration="6308000" />
+      <workItem from="1744194617296" duration="4479000" />
+      <workItem from="1744292334757" duration="775000" />
+      <workItem from="1744300574852" duration="48000" />
+      <workItem from="1744300842082" duration="41000" />
+      <workItem from="1744373675116" duration="8238000" />
+      <workItem from="1744462509689" duration="6129000" />
+      <workItem from="1744477704522" duration="954000" />
+      <workItem from="1744626510914" duration="8506000" />
+      <workItem from="1744653915292" duration="2064000" />
+      <workItem from="1744689730340" duration="2175000" />
+      <workItem from="1744713794252" duration="7986000" />
+      <workItem from="1744731325376" duration="5263000" />
+      <workItem from="1744802520262" duration="4516000" />
+      <workItem from="1744824131001" duration="11000" />
+      <workItem from="1744894724505" duration="200000" />
+      <workItem from="1744896638334" duration="6107000" />
+      <workItem from="1744952955680" duration="4428000" />
+      <workItem from="1744963919970" duration="9262000" />
+      <workItem from="1744982608862" duration="3492000" />
+      <workItem from="1745038955405" duration="1448000" />
+      <workItem from="1745133467632" duration="3623000" />
+      <workItem from="1745376709702" duration="8000" />
+      <workItem from="1745600324927" duration="3697000" />
+      <workItem from="1745642095340" duration="207000" />
+      <workItem from="1745743684896" duration="9409000" />
+      <workItem from="1745760124066" duration="5248000" />
+      <workItem from="1745829728061" duration="41000" />
+      <workItem from="1746097877790" duration="9168000" />
+      <workItem from="1746109668333" duration="2827000" />
+      <workItem from="1746216553962" duration="12000" />
+      <workItem from="1746273013820" duration="6062000" />
+      <workItem from="1746437343881" duration="6556000" />
+      <workItem from="1747042666262" duration="31000" />
+      <workItem from="1747050296314" duration="1266000" />
+      <workItem from="1747058004276" duration="9000" />
+      <workItem from="1747125346733" duration="932000" />
+      <workItem from="1747467068265" duration="3770000" />
+      <workItem from="1748150517736" duration="5733000" />
+      <workItem from="1748193194552" duration="4000" />
+      <workItem from="1748264870709" duration="4086000" />
+      <workItem from="1748348343292" duration="5717000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
