@@ -12,6 +12,12 @@
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Database.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/DatabaseConnector.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Wait/ThreadQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/Daemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/EmailChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/EmailDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/EmailSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Join/Join.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Join/Join.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Sleep/Sleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Sleep/Sleep.java" afterDir="false" />
@@ -64,6 +70,7 @@
     "Application.CollectionsFramework.Iterator.Main.executor": "Run",
     "Application.CollectionsFramework.Map.Main.executor": "Run",
     "Application.CollectionsFramework.Queue.Main.executor": "Run",
+    "Application.Daemon.executor": "Run",
     "Application.DataTypes.Main.executor": "Run",
     "Application.EnumsAndRecords.Main.executor": "Run",
     "Application.Generics.Main.executor": "Run",
@@ -111,7 +118,20 @@
       <recent name="C:\Users\StefanParmezan\Desktop\Home\MyFiles\Programming\Algoritms\src\other" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Interrupt">
+  <component name="RunManager" selected="Application.Daemon">
+    <configuration name="Daemon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.ThreadsTypes.DaemonThreads.Daemon" />
+      <module name="Algoritms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multithreading.ThreadsTypes.DaemonThreads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Interrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Interrupt.Interrupt" />
       <module name="Algoritms" />
@@ -151,19 +171,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Synchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Synchronized.Synchronized" />
-      <module name="Algoritms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Multithreading.Methods.Synchronized.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Wait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Wait.Wait" />
       <module name="Algoritms" />
@@ -179,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Daemon" />
         <item itemvalue="Application.Interrupt" />
         <item itemvalue="Application.Wait" />
         <item itemvalue="Application.Join" />
         <item itemvalue="Application.Sleep" />
-        <item itemvalue="Application.Synchronized" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +272,7 @@
       <workItem from="1748348343292" duration="8021000" />
       <workItem from="1748356887948" duration="225000" />
       <workItem from="1748492711751" duration="4480000" />
-      <workItem from="1748515837125" duration="4490000" />
+      <workItem from="1748515837125" duration="8864000" />
     </task>
     <servers />
   </component>
