@@ -9,10 +9,10 @@
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Actions.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Database.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/DatabaseConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Wait/SomeAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Wait/ThreadQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Join/Join.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Join/Join.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Sleep/Sleep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Sleep/Sleep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src" beforeDir="false" afterPath="$PROJECT_DIR$/src" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Join/Join.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Join/Join.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Sleep/Sleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Sleep/Sleep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Synchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Synchronized.java" afterDir="false" />
@@ -57,78 +57,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Abstract.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionsFramework.Compare.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionsFramework.Iterator.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionsFramework.Map.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionsFramework.Queue.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataTypes.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumsAndRecords.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Generics.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloThreads.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IOoperations.Code.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Inheritance.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Input.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interfaces.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaSyntax.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Join.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LambdaExpressions.AnimalsExample.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaExpressions.CalculatrorExample.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaExpressions.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LearnMaks.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Magazine.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyProgram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OOP.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Optional.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RegexCrosswordSolver.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Registration.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sleep.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Synchronized.executor&quot;: &quot;Run&quot;,
-    &quot;Application.g.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/StefanParmezan/Desktop/Home/Programming/JavaLearning&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Abstract.Main.executor": "Run",
+    "Application.CollectionsFramework.Compare.Main.executor": "Run",
+    "Application.CollectionsFramework.Iterator.Main.executor": "Run",
+    "Application.CollectionsFramework.Map.Main.executor": "Run",
+    "Application.CollectionsFramework.Queue.Main.executor": "Run",
+    "Application.DataTypes.Main.executor": "Run",
+    "Application.EnumsAndRecords.Main.executor": "Run",
+    "Application.Generics.Main.executor": "Run",
+    "Application.HelloThreads.executor": "Run",
+    "Application.IOoperations.Code.Main.executor": "Run",
+    "Application.Inheritance.Main.executor": "Run",
+    "Application.Input.executor": "Run",
+    "Application.Interfaces.Main.executor": "Run",
+    "Application.JavaSyntax.executor": "Run",
+    "Application.Join.executor": "Debug",
+    "Application.LambdaExpressions.AnimalsExample.Main.executor": "Run",
+    "Application.LambdaExpressions.CalculatrorExample.Main.executor": "Run",
+    "Application.LambdaExpressions.Main.executor": "Run",
+    "Application.LearnMaks.Main.executor": "Run",
+    "Application.Magazine.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MyProgram.executor": "Run",
+    "Application.OOP.Main.executor": "Run",
+    "Application.Optional.Main.executor": "Run",
+    "Application.RegexCrosswordSolver.executor": "Run",
+    "Application.Registration.executor": "Run",
+    "Application.Sleep.executor": "Run",
+    "Application.Synchronized.executor": "Run",
+    "Application.Wait.executor": "Run",
+    "Application.g.Main.executor": "Run",
+    "Application.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/StefanParmezan/Desktop/Home/Programming/JavaLearning",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\StefanParmezan\Desktop\Home\MyFiles\Programming\Algoritms\src\other" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Join">
+  <component name="RunManager" selected="Application.Wait">
     <configuration name="Join" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Join.Join" />
       <module name="Algoritms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Multithreading.Methods.Join.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LearnMaks.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LearnMaks.Main" />
-      <module name="Algoritms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LearnMaks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,13 +163,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Wait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Wait.Wait" />
+      <module name="Algoritms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multithreading.Methods.Wait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Wait" />
         <item itemvalue="Application.Join" />
         <item itemvalue="Application.Sleep" />
         <item itemvalue="Application.Synchronized" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.LearnMaks.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +263,7 @@
       <workItem from="1748264870709" duration="4086000" />
       <workItem from="1748348343292" duration="8021000" />
       <workItem from="1748356887948" duration="225000" />
-      <workItem from="1748492711751" duration="3239000" />
+      <workItem from="1748492711751" duration="4171000" />
     </task>
     <servers />
   </component>
