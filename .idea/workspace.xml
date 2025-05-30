@@ -12,6 +12,8 @@
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Database.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/DatabaseConnector.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Wait/ThreadQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/Problems/RaceConditions/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/Problems/RaceConditions/RaceCondition.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/Actions.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/Daemon.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/Email.java" afterDir="false" />
@@ -92,6 +94,7 @@
     "Application.MyProgram.executor": "Run",
     "Application.OOP.Main.executor": "Run",
     "Application.Optional.Main.executor": "Run",
+    "Application.RaceCondition.executor": "Run",
     "Application.RegexCrosswordSolver.executor": "Run",
     "Application.Registration.executor": "Run",
     "Application.Sleep.executor": "Run",
@@ -118,7 +121,7 @@
       <recent name="C:\Users\StefanParmezan\Desktop\Home\MyFiles\Programming\Algoritms\src\other" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Daemon">
+  <component name="RunManager" selected="Application.RaceCondition">
     <configuration name="Daemon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Multithreading.ThreadsTypes.DaemonThreads.Daemon" />
       <module name="Algoritms" />
@@ -145,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Join" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Join.Join" />
+    <configuration name="RaceCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.Problems.RaceConditions.RaceCondition" />
       <module name="Algoritms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Multithreading.Methods.Join.*" />
+          <option name="PATTERN" value="Multithreading.Problems.RaceConditions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Sleep.Sleep" />
+    <configuration name="Synchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Synchronized.Synchronized" />
       <module name="Algoritms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Multithreading.Methods.Sleep.*" />
+          <option name="PATTERN" value="Multithreading.Methods.Synchronized.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RaceCondition" />
         <item itemvalue="Application.Daemon" />
+        <item itemvalue="Application.Synchronized" />
         <item itemvalue="Application.Interrupt" />
         <item itemvalue="Application.Wait" />
-        <item itemvalue="Application.Join" />
-        <item itemvalue="Application.Sleep" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +275,8 @@
       <workItem from="1748348343292" duration="8021000" />
       <workItem from="1748356887948" duration="225000" />
       <workItem from="1748492711751" duration="4480000" />
-      <workItem from="1748515837125" duration="8864000" />
+      <workItem from="1748515837125" duration="9722000" />
+      <workItem from="1748592043500" duration="2718000" />
     </task>
     <servers />
   </component>
