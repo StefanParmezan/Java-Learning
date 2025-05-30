@@ -12,6 +12,7 @@
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Database.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/DatabaseConnector.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Wait/ThreadQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/Problems/DeadLocking/DeadLocked.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Problems/RaceConditions/Counter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Problems/RaceConditions/RaceCondition.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/Actions.java" afterDir="false" />
@@ -74,6 +75,7 @@
     "Application.CollectionsFramework.Queue.Main.executor": "Run",
     "Application.Daemon.executor": "Run",
     "Application.DataTypes.Main.executor": "Run",
+    "Application.DeadLocked.executor": "Run",
     "Application.EnumsAndRecords.Main.executor": "Run",
     "Application.Generics.Main.executor": "Run",
     "Application.HelloThreads.executor": "Run",
@@ -94,7 +96,7 @@
     "Application.MyProgram.executor": "Run",
     "Application.OOP.Main.executor": "Run",
     "Application.Optional.Main.executor": "Run",
-    "Application.RaceCondition.executor": "Run",
+    "Application.RaceCondition.executor": "Debug",
     "Application.RegexCrosswordSolver.executor": "Run",
     "Application.Registration.executor": "Run",
     "Application.Sleep.executor": "Run",
@@ -121,13 +123,26 @@
       <recent name="C:\Users\StefanParmezan\Desktop\Home\MyFiles\Programming\Algoritms\src\other" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RaceCondition">
+  <component name="RunManager" selected="Application.DeadLocked">
     <configuration name="Daemon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Multithreading.ThreadsTypes.DaemonThreads.Daemon" />
       <module name="Algoritms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Multithreading.ThreadsTypes.DaemonThreads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeadLocked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.Problems.DeadLocking.DeadLocked" />
+      <module name="Algoritms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multithreading.Problems.DeadLocking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,26 +189,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Wait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Wait.Wait" />
-      <module name="Algoritms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Multithreading.Methods.Wait.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeadLocked" />
         <item itemvalue="Application.RaceCondition" />
         <item itemvalue="Application.Daemon" />
         <item itemvalue="Application.Synchronized" />
         <item itemvalue="Application.Interrupt" />
-        <item itemvalue="Application.Wait" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +278,7 @@
       <workItem from="1748356887948" duration="225000" />
       <workItem from="1748492711751" duration="4480000" />
       <workItem from="1748515837125" duration="9722000" />
-      <workItem from="1748592043500" duration="2718000" />
+      <workItem from="1748592043500" duration="4779000" />
     </task>
     <servers />
   </component>
@@ -290,6 +292,34 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Multithreading/Problems/RaceConditions/Counter.java</url>
+          <line>4</line>
+          <properties class="Multithreading.Problems.RaceConditions.Counter" method="Increment">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Multithreading/Problems/RaceConditions/RaceCondition.java</url>
+          <line>3</line>
+          <properties class="Multithreading.Problems.RaceConditions.RaceCondition" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Multithreading/Problems/RaceConditions/RaceCondition.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Multithreading/Problems/RaceConditions/RaceCondition.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
