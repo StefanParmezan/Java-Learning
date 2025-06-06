@@ -9,6 +9,7 @@
       <change afterPath="$PROJECT_DIR$/src/Multithreading/KeyWords/Volatine.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Interrupt/DataLoader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Interrupt/Interrupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Reentracklock/ConditionExample.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Sleep/Timer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Actions.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Database.java" afterDir="false" />
@@ -24,6 +25,7 @@
       <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/EmailDataBase.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/EmailSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/List/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/List/Client.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Join/Join.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Join/Join.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Sleep/Sleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Sleep/Sleep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Synchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Synchronized.java" afterDir="false" />
@@ -64,6 +66,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2t1Idq92NPmV7GCXGLdOJC483L7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -75,6 +80,8 @@
     "Application.CollectionsFramework.Iterator.Main.executor": "Run",
     "Application.CollectionsFramework.Map.Main.executor": "Run",
     "Application.CollectionsFramework.Queue.Main.executor": "Run",
+    "Application.Condition.executor": "Run",
+    "Application.ConditionExample.executor": "Run",
     "Application.Daemon.executor": "Run",
     "Application.DataTypes.Main.executor": "Run",
     "Application.DeadLocked.executor": "Run",
@@ -92,6 +99,7 @@
     "Application.LambdaExpressions.CalculatrorExample.Main.executor": "Run",
     "Application.LambdaExpressions.Main.executor": "Run",
     "Application.LearnMaks.Main.executor": "Run",
+    "Application.Lock.executor": "Run",
     "Application.Magazine.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
@@ -103,6 +111,7 @@
     "Application.Registration.executor": "Run",
     "Application.Sleep.executor": "Run",
     "Application.Synchronized.executor": "Run",
+    "Application.Volatine.executor": "Run",
     "Application.Wait.executor": "Run",
     "Application.g.Main.executor": "Run",
     "Application.main.executor": "Run",
@@ -125,13 +134,13 @@
       <recent name="C:\Users\StefanParmezan\Desktop\Home\MyFiles\Programming\Algoritms\src\other" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Volatine">
-    <configuration name="Daemon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.ThreadsTypes.DaemonThreads.Daemon" />
+  <component name="RunManager" selected="Application.ConditionExample">
+    <configuration name="Condition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Condition.Condition" />
       <module name="Algoritms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Multithreading.ThreadsTypes.DaemonThreads.*" />
+          <option name="PATTERN" value="Multithreading.Methods.Condition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadLocked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.Problems.DeadLocking.DeadLocked" />
+    <configuration name="ConditionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Reentracklock.ConditionExample" />
       <module name="Algoritms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Multithreading.Problems.DeadLocking.*" />
+          <option name="PATTERN" value="Multithreading.Methods.Reentracklock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaceCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.Problems.RaceConditions.RaceCondition" />
+    <configuration name="Lock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Lock.Lock" />
       <module name="Algoritms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Multithreading.Problems.RaceConditions.*" />
+          <option name="PATTERN" value="Multithreading.Methods.Lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Synchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Synchronized.Synchronized" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Reentracklock.Main" />
       <module name="Algoritms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Multithreading.Methods.Synchronized.*" />
+          <option name="PATTERN" value="Multithreading.Methods.Reentracklock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConditionExample" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Condition" />
+        <item itemvalue="Application.Lock" />
         <item itemvalue="Application.Volatine" />
-        <item itemvalue="Application.DeadLocked" />
-        <item itemvalue="Application.RaceCondition" />
-        <item itemvalue="Application.Daemon" />
-        <item itemvalue="Application.Synchronized" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +289,13 @@
       <workItem from="1748356887948" duration="225000" />
       <workItem from="1748492711751" duration="4480000" />
       <workItem from="1748515837125" duration="9722000" />
-      <workItem from="1748592043500" duration="6374000" />
+      <workItem from="1748592043500" duration="6618000" />
+      <workItem from="1748781547848" duration="10000" />
+      <workItem from="1748857223373" duration="2124000" />
+      <workItem from="1748946229014" duration="1663000" />
+      <workItem from="1749045163776" duration="5380000" />
+      <workItem from="1749122563547" duration="1933000" />
+      <workItem from="1749194915996" duration="4212000" />
     </task>
     <servers />
   </component>
