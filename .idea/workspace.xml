@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a113ef8-58fe-4fd3-967d-59f986e94ae9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/DataStructures/BlockingQueue/BlockingQueueExample.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/KeyWords/Example.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/KeyWords/Volatine.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Interrupt/DataLoader.java" afterDir="false" />
@@ -18,6 +19,10 @@
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Problems/DeadLocking/DeadLocked.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Problems/RaceConditions/Counter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Problems/RaceConditions/RaceCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/CalculatorConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/Operations.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/Actions.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/Daemon.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/Email.java" afterDir="false" />
@@ -25,7 +30,8 @@
       <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/EmailDataBase.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/EmailSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/List/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/List/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/List/Magazine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/List/Magazine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Synchronized/DatabaseConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Synchronized/DatabaseConnector.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Join/Join.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Join/Join.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Sleep/Sleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Sleep/Sleep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Synchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Synchronized.java" afterDir="false" />
@@ -42,8 +48,8 @@
         <option value="package-info" />
         <option value="Record" />
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -76,6 +82,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Abstract.Main.executor": "Run",
+    "Application.BlockingQueueExample.executor": "Run",
     "Application.CollectionsFramework.Compare.Main.executor": "Run",
     "Application.CollectionsFramework.Iterator.Main.executor": "Run",
     "Application.CollectionsFramework.Map.Main.executor": "Run",
@@ -103,6 +110,7 @@
     "Application.Magazine.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Multithreading.ThreadPool.Main.executor": "Run",
     "Application.MyProgram.executor": "Run",
     "Application.OOP.Main.executor": "Run",
     "Application.Optional.Main.executor": "Run",
@@ -110,6 +118,7 @@
     "Application.RegexCrosswordSolver.executor": "Run",
     "Application.Registration.executor": "Run",
     "Application.Sleep.executor": "Run",
+    "Application.Strings.Main.executor": "Run",
     "Application.Synchronized.executor": "Run",
     "Application.Volatine.executor": "Run",
     "Application.Wait.executor": "Run",
@@ -134,13 +143,13 @@
       <recent name="C:\Users\StefanParmezan\Desktop\Home\MyFiles\Programming\Algoritms\src\other" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConditionExample">
-    <configuration name="Condition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Condition.Condition" />
+  <component name="RunManager" selected="Application.Multithreading.ThreadPool.Main">
+    <configuration name="BlockingQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.DataStructures.BlockingQueue.BlockingQueueExample" />
       <module name="Algoritms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Multithreading.Methods.Condition.*" />
+          <option name="PATTERN" value="Multithreading.DataStructures.BlockingQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Reentracklock.ConditionExample" />
+    <configuration name="Magazine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsFramework.List.Magazine" />
       <module name="Algoritms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Multithreading.Methods.Reentracklock.*" />
+          <option name="PATTERN" value="CollectionsFramework.List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,25 +170,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Lock.Lock" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Algoritms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Multithreading.Methods.Lock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.Methods.Reentracklock.Main" />
+      <option name="MAIN_CLASS_NAME" value="Multithreading.ThreadPool.CalculatorProgram.Main" />
       <module name="Algoritms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Multithreading.Methods.Reentracklock.*" />
+          <option name="PATTERN" value="Multithreading.ThreadPool.CalculatorProgram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Volatine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.KeyWords.Volatine" />
+    <configuration name="Multithreading.ThreadPool.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.ThreadPool.Main" />
       <module name="Algoritms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Multithreading.KeyWords.*" />
+          <option name="PATTERN" value="Multithreading.ThreadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConditionExample" />
+        <item itemvalue="Application.Multithreading.ThreadPool.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Condition" />
-        <item itemvalue="Application.Lock" />
-        <item itemvalue="Application.Volatine" />
+        <item itemvalue="Application.BlockingQueueExample" />
+        <item itemvalue="Application.Magazine" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +298,8 @@
       <workItem from="1748946229014" duration="1663000" />
       <workItem from="1749045163776" duration="5380000" />
       <workItem from="1749122563547" duration="1933000" />
-      <workItem from="1749194915996" duration="4212000" />
+      <workItem from="1749194915996" duration="9484000" />
+      <workItem from="1749378421285" duration="6021000" />
     </task>
     <servers />
   </component>
