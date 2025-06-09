@@ -19,10 +19,13 @@
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Problems/DeadLocking/DeadLocked.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Problems/RaceConditions/Counter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/Problems/RaceConditions/RaceCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/CalculatorConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/Operations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/ArrayCounter/ArrayCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/ArrayCounter/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/ArrayCounter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/CalculatorProgram/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/CalculatorProgram/CalculatorConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/CalculatorProgram/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/CalculatorProgram/Operations.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/Actions.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/Daemon.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/Email.java" afterDir="false" />
@@ -30,8 +33,6 @@
       <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/EmailDataBase.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/EmailSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/List/Magazine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/List/Magazine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Synchronized/DatabaseConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Synchronized/DatabaseConnector.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Join/Join.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Join/Join.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Sleep/Sleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Sleep/Sleep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Synchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Synchronized.java" afterDir="false" />
@@ -48,8 +49,8 @@
         <option value="package-info" />
         <option value="Record" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,6 +111,7 @@
     "Application.Magazine.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Multithreading.ThreadPool.ArrayCounter.Main.executor": "Run",
     "Application.Multithreading.ThreadPool.Main.executor": "Run",
     "Application.MyProgram.executor": "Run",
     "Application.OOP.Main.executor": "Run",
@@ -143,7 +145,7 @@
       <recent name="C:\Users\StefanParmezan\Desktop\Home\MyFiles\Programming\Algoritms\src\other" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Multithreading.ThreadPool.Main">
+  <component name="RunManager" selected="Application.Multithreading.ThreadPool.ArrayCounter.Main">
     <configuration name="BlockingQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Multithreading.DataStructures.BlockingQueue.BlockingQueueExample" />
       <module name="Algoritms" />
@@ -170,9 +172,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.ThreadPool.CalculatorProgram.Main" />
       <module name="Algoritms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multithreading.ThreadPool.CalculatorProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -190,12 +198,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Multithreading.ThreadPool.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.ThreadPool.Main" />
+    <configuration name="Multithreading.ThreadPool.ArrayCounter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.ThreadPool.ArrayCounter.Main" />
       <module name="Algoritms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Multithreading.ThreadPool.*" />
+          <option name="PATTERN" value="Multithreading.ThreadPool.ArrayCounter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Multithreading.ThreadPool.ArrayCounter.Main" />
         <item itemvalue="Application.Multithreading.ThreadPool.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BlockingQueueExample" />
         <item itemvalue="Application.Magazine" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -300,6 +308,7 @@
       <workItem from="1749122563547" duration="1933000" />
       <workItem from="1749194915996" duration="9484000" />
       <workItem from="1749378421285" duration="6021000" />
+      <workItem from="1749474557424" duration="4149000" />
     </task>
     <servers />
   </component>
