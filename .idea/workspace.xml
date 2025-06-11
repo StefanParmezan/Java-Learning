@@ -7,6 +7,9 @@
     <list default="true" id="0a113ef8-58fe-4fd3-967d-59f986e94ae9" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/Multithreading/AtomicDatatypes/AtomicBoolean/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/AtomicDatatypes/AtomicInteger/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/AtomicDatatypes/AtomicReference/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/AtomicDatatypes/AtomicReference/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/AtomicDatatypes/AtomicReference/UserUpdater.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/DataStructures/BlockingQueue/BlockingQueueExample.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/KeyWords/Example.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/KeyWords/Volatine.java" afterDir="false" />
@@ -35,6 +38,7 @@
       <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/EmailDataBase.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/EmailSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/AtomicDatatypes/AtomicBoolean/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/AtomicDatatypes/AtomicBoolean/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Join/Join.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Join/Join.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Sleep/Sleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Sleep/Sleep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Synchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Synchronized.java" afterDir="false" />
@@ -49,9 +53,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Record" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -115,6 +119,7 @@
     "Application.Main.executor": "Run",
     "Application.Multithreading.AtomicDatatypes.AtomicBoolean.Main.executor": "Run",
     "Application.Multithreading.AtomicDatatypes.AtomicInteger.Main.executor": "Run",
+    "Application.Multithreading.AtomicDatatypes.AtomicReference.Main.executor": "Run",
     "Application.Multithreading.ThreadPool.ArrayCounter.Main.executor": "Run",
     "Application.Multithreading.ThreadPool.Main.executor": "Run",
     "Application.MyProgram.executor": "Run",
@@ -149,20 +154,7 @@
       <recent name="C:\Users\StefanParmezan\Desktop\Home\MyFiles\Programming\Algoritms\src\other" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Multithreading.AtomicDatatypes.AtomicBoolean.Main">
-    <configuration name="BlockingQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.DataStructures.BlockingQueue.BlockingQueueExample" />
-      <module name="Algoritms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Multithreading.DataStructures.BlockingQueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Multithreading.AtomicDatatypes.AtomicReference.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Multithreading.ThreadPool.CalculatorProgram.Main" />
       <module name="Algoritms" />
@@ -215,6 +207,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Multithreading.AtomicDatatypes.AtomicReference.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.AtomicDatatypes.AtomicReference.Main" />
+      <module name="Algoritms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multithreading.AtomicDatatypes.AtomicReference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Multithreading.ThreadPool.ArrayCounter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Multithreading.ThreadPool.ArrayCounter.Main" />
       <module name="Algoritms" />
@@ -230,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Multithreading.AtomicDatatypes.AtomicReference.Main" />
         <item itemvalue="Application.Multithreading.AtomicDatatypes.AtomicBoolean.Main" />
         <item itemvalue="Application.Multithreading.AtomicDatatypes.AtomicInteger.Main" />
         <item itemvalue="Application.Multithreading.ThreadPool.ArrayCounter.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BlockingQueueExample" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +332,7 @@
       <workItem from="1749378421285" duration="6021000" />
       <workItem from="1749474557424" duration="5034000" />
       <workItem from="1749629651526" duration="640000" />
-      <workItem from="1749639319435" duration="4365000" />
+      <workItem from="1749639319435" duration="7876000" />
     </task>
     <servers />
   </component>
