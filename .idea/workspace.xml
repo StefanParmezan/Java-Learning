@@ -4,144 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a113ef8-58fe-4fd3-967d-59f986e94ae9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/AtomicDatatypes/AtomicBoolean/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/AtomicDatatypes/AtomicInteger/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/AtomicDatatypes/AtomicReference/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/AtomicDatatypes/AtomicReference/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/AtomicDatatypes/AtomicReference/UserUpdater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/DataStructures/BlockingQueue/BlockingQueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/KeyWords/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/KeyWords/Volatine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Interrupt/DataLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Interrupt/Interrupt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Reentracklock/ConditionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Sleep/Timer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/DatabaseConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Wait/ThreadQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Problems/DeadLocking/DeadLocked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Problems/RaceConditions/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Problems/RaceConditions/RaceCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/ArrayCounter/ArrayCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/ArrayCounter/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/ArrayCounter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/CalculatorProgram/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/CalculatorProgram/CalculatorConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/CalculatorProgram/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPool/CalculatorProgram/Operations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/Daemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/EmailChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/EmailDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/DaemonThreads/EmailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/VitrualThreads/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/ThreadsTypes/VitrualThreads/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0a113ef8-58fe-4fd3-967d-59f986e94ae9" name="Changes" comment="Started StreamApi">
+      <change afterPath="$PROJECT_DIR$/src/StreamAPI/Introduction/Array/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StreamAPI/Introduction/Array/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StreamAPI/Introduction/Collections/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StreamAPI/Introduction/Collections/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Abstract/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Abstract/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Abstract/Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Abstract/Bird.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Abstract/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Abstract/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Abstract/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Abstract/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Abstract/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Abstract/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/Compare/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/Compare/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/Compare/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/Compare/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/Iterator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/Iterator/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/Iterator/Numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/Iterator/Numbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/List/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/List/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/List/Magazine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/List/Magazine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/List/Products.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/List/Products.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/Map/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/Map/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/Map/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/Map/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/QueueAndDeque/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/QueueAndDeque/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/Set/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/Set/Registration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/Set/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/Set/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/Set/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/CollectionsFramework/Set/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/DataTypes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/DataTypes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/DataTypes/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/DataTypes/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/EnumsAndRecords/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/EnumsAndRecords/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/EnumsAndRecords/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/EnumsAndRecords/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/EnumsAndRecords/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/EnumsAndRecords/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Exceptions/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Exceptions/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Exceptions/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Exceptions/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Generics/DeliveryInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Generics/DeliveryInput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Generics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Generics/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/IOoperations/Code/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/IOoperations/Code/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/IOoperations/Code/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/IOoperations/Code/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/IOoperations/Code/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/IOoperations/Code/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/InheritanceAndOverriding/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/InheritanceAndOverriding/Child.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/InheritanceAndOverriding/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/InheritanceAndOverriding/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/InheritanceAndOverriding/Man.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/InheritanceAndOverriding/Man.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Interfaces/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Interfaces/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Interfaces/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Interfaces/Example.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Interfaces/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Interfaces/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Interfaces/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Interfaces/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/AnimalsExample/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/AnimalsExample/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/AnimalsExample/Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/AnimalsExample/Bird.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/AnimalsExample/Bug.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/AnimalsExample/Bug.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/AnimalsExample/Fish.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/AnimalsExample/Fish.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/AnimalsExample/Go.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/AnimalsExample/Go.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/AnimalsExample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/AnimalsExample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/PersonsExample/IPersonActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/PersonsExample/IPersonActions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/PersonsExample/Invalide.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/PersonsExample/Invalide.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/PersonsExample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/PersonsExample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/PersonsExample/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/PersonsExample/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/PersonsExample/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/LambdaExpressions/PersonsExample/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/AtomicDatatypes/AtomicBoolean/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/AtomicDatatypes/AtomicBoolean/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/AtomicDatatypes/AtomicInteger/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/AtomicDatatypes/AtomicInteger/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/AtomicDatatypes/AtomicReference/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/AtomicDatatypes/AtomicReference/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/AtomicDatatypes/AtomicReference/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/AtomicDatatypes/AtomicReference/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/AtomicDatatypes/AtomicReference/UserUpdater.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/AtomicDatatypes/AtomicReference/UserUpdater.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/DataStructures/BlockingQueue/BlockingQueueExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/DataStructures/BlockingQueue/BlockingQueueExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/DataStructures/BlockingQueue/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/DataStructures/BlockingQueue/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/KeyWords/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/KeyWords/Example.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/KeyWords/Volatine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/KeyWords/Volatine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Interrupt/DataLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Interrupt/DataLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Interrupt/Interrupt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Interrupt/Interrupt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Join/Join.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Join/Join.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Reentracklock/ConditionExample$TaskReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Reentracklock/ConditionExample$TaskReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Reentracklock/ConditionExample$TaskWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Reentracklock/ConditionExample$TaskWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Reentracklock/ConditionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Reentracklock/ConditionExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Sleep/Sleep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Sleep/Sleep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Sleep/Timer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Sleep/Timer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Synchronized/Actions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Synchronized/Actions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Synchronized/Database$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Synchronized/Database$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Synchronized/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Synchronized/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Synchronized/DatabaseConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Synchronized/DatabaseConnector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Synchronized/Synchronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Synchronized/Synchronized.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Wait/ThreadQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Wait/ThreadQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Wait/Wait.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Methods/Wait/Wait.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Problems/DeadLocking/DeadLocked.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Problems/DeadLocking/DeadLocked.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Problems/RaceConditions/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Problems/RaceConditions/Counter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Problems/RaceConditions/RaceCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/Problems/RaceConditions/RaceCondition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadPool/ArrayCounter/ArrayCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadPool/ArrayCounter/ArrayCounter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadPool/ArrayCounter/Count.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadPool/ArrayCounter/Count.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadPool/ArrayCounter/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadPool/ArrayCounter/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadPool/CalculatorProgram/Calculator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadPool/CalculatorProgram/Calculator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadPool/CalculatorProgram/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadPool/CalculatorProgram/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadPool/CalculatorProgram/CalculatorConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadPool/CalculatorProgram/CalculatorConnector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadPool/CalculatorProgram/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadPool/CalculatorProgram/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadPool/CalculatorProgram/Operations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadPool/CalculatorProgram/Operations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadsTypes/DaemonThreads/Actions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadsTypes/DaemonThreads/Actions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadsTypes/DaemonThreads/Daemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadsTypes/DaemonThreads/Daemon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadsTypes/DaemonThreads/Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadsTypes/DaemonThreads/Email.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadsTypes/DaemonThreads/EmailChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadsTypes/DaemonThreads/EmailChecker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadsTypes/DaemonThreads/EmailDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadsTypes/DaemonThreads/EmailDataBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadsTypes/DaemonThreads/EmailSender$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadsTypes/DaemonThreads/EmailSender$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadsTypes/DaemonThreads/EmailSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Multithreading/ThreadsTypes/DaemonThreads/EmailSender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/NestedClasses/Animal$Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/NestedClasses/Animal$Bird.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/NestedClasses/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/NestedClasses/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/NestedClasses/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/NestedClasses/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Optionals/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Optionals/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/Optionals/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/Optionals/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/OverLoading/Calculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/OverLoading/Calculate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algoritms/OverLoading/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algoritms/OverLoading/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Join/Join.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Join/Join.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Sleep/Sleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Sleep/Sleep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Synchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Synchronized/Synchronized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multithreading/Methods/Wait/Wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multithreading/Methods/Wait/Wait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StreamAPI/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +30,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -185,84 +55,87 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Abstract.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ApiRequest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BlockingQueueExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BodyMiniRequest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionsFramework.Compare.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionsFramework.Iterator.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionsFramework.Map.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionsFramework.Queue.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Condition.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConditionExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Daemon.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataTypes.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeadLocked.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumsAndRecords.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Generics.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloThreads.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IOoperations.Code.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Inheritance.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Input.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interfaces.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interrupt.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaSyntax.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Join.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LambdaExpressions.AnimalsExample.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaExpressions.CalculatrorExample.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaExpressions.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LearnMaks.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lock.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Magazine.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Multithreading.AtomicDatatypes.AtomicBoolean.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Multithreading.AtomicDatatypes.AtomicInteger.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Multithreading.AtomicDatatypes.AtomicReference.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Multithreading.ThreadPool.ArrayCounter.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Multithreading.ThreadPool.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyHumanDesignScraper.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyProgram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OOP.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Optional.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RaceCondition.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RegexCrosswordSolver.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Registration.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sleep.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Strings.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Synchronized.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskExecutionExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VirtualThreadTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Volatine.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Wait.executor&quot;: &quot;Run&quot;,
-    &quot;Application.g.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/StefanParmezan/Desktop/Home/Programming/JavaLearning&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Abstract.Main.executor": "Run",
+    "Application.ApiRequest.executor": "Run",
+    "Application.BlockingQueueExample.executor": "Run",
+    "Application.BodyMiniRequest.executor": "Run",
+    "Application.CollectionsFramework.Compare.Main.executor": "Run",
+    "Application.CollectionsFramework.Iterator.Main.executor": "Run",
+    "Application.CollectionsFramework.Map.Main.executor": "Run",
+    "Application.CollectionsFramework.Queue.Main.executor": "Run",
+    "Application.Condition.executor": "Run",
+    "Application.ConditionExample.executor": "Run",
+    "Application.Daemon.executor": "Run",
+    "Application.DataTypes.Main.executor": "Run",
+    "Application.DeadLocked.executor": "Run",
+    "Application.EnumsAndRecords.Main.executor": "Run",
+    "Application.Generics.Main.executor": "Run",
+    "Application.HelloThreads.executor": "Run",
+    "Application.IOoperations.Code.Main.executor": "Run",
+    "Application.Inheritance.Main.executor": "Run",
+    "Application.Input.executor": "Run",
+    "Application.Interfaces.Main.executor": "Run",
+    "Application.Interrupt.executor": "Run",
+    "Application.JavaSyntax.executor": "Run",
+    "Application.Join.executor": "Debug",
+    "Application.LambdaExpressions.AnimalsExample.Main.executor": "Run",
+    "Application.LambdaExpressions.CalculatrorExample.Main.executor": "Run",
+    "Application.LambdaExpressions.Main.executor": "Run",
+    "Application.LearnMaks.Main.executor": "Run",
+    "Application.Lock.executor": "Run",
+    "Application.Magazine.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Multithreading.AtomicDatatypes.AtomicBoolean.Main.executor": "Run",
+    "Application.Multithreading.AtomicDatatypes.AtomicInteger.Main.executor": "Run",
+    "Application.Multithreading.AtomicDatatypes.AtomicReference.Main.executor": "Run",
+    "Application.Multithreading.ThreadPool.ArrayCounter.Main.executor": "Run",
+    "Application.Multithreading.ThreadPool.Main.executor": "Run",
+    "Application.MyHumanDesignScraper.executor": "Run",
+    "Application.MyProgram.executor": "Run",
+    "Application.OOP.Main.executor": "Run",
+    "Application.Optional.Main.executor": "Run",
+    "Application.RaceCondition.executor": "Debug",
+    "Application.RegexCrosswordSolver.executor": "Run",
+    "Application.Registration.executor": "Run",
+    "Application.Sleep.executor": "Run",
+    "Application.StreamAPI.Introduction.Array.Main.executor": "Run",
+    "Application.StreamAPI.Introduction.Collections.Main.executor": "Run",
+    "Application.StreamAPI.Introduction.Main.executor": "Debug",
+    "Application.Strings.Main.executor": "Run",
+    "Application.Synchronized.executor": "Run",
+    "Application.TaskExecutionExample.executor": "Run",
+    "Application.VirtualThreadTest.executor": "Run",
+    "Application.Volatine.executor": "Run",
+    "Application.Wait.executor": "Run",
+    "Application.g.Main.executor": "Run",
+    "Application.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/StefanParmezan/Desktop/Home/Programming/JavaLearning",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\StefanParmezan\Desktop\Home\MyFiles\Programming\Algoritms\src\other" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyHumanDesignScraper">
+  <component name="RunManager" selected="Application.StreamAPI.Introduction.Collections.Main">
     <configuration name="ApiRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ApiRequest" />
       <module name="Algoritms" />
@@ -273,19 +146,6 @@
     <configuration name="BodyMiniRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BodyMiniRequest" />
       <module name="Algoritms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.ThreadsTypes.VitrualThreads.Main" />
-      <module name="Algoritms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Multithreading.ThreadsTypes.VitrualThreads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -310,12 +170,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskExecutionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.ThreadsTypes.VitrualThreads.TaskExecutionExample" />
+    <configuration name="StreamAPI.Introduction.Array.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamAPI.Introduction.Array.Main" />
       <module name="Algoritms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Multithreading.ThreadsTypes.VitrualThreads.*" />
+          <option name="PATTERN" value="StreamAPI.Introduction.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamAPI.Introduction.Collections.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamAPI.Introduction.Collections.Main" />
+      <module name="Algoritms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StreamAPI.Introduction.Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamAPI.Introduction.Collections.Main" />
+        <item itemvalue="Application.StreamAPI.Introduction.Array.Main" />
         <item itemvalue="Application.MyHumanDesignScraper" />
         <item itemvalue="Application.BodyMiniRequest" />
         <item itemvalue="Application.ApiRequest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TaskExecutionExample" />
       </list>
     </recent_temporary>
   </component>
@@ -438,11 +311,26 @@
       <workItem from="1750336604222" duration="10082000" />
       <workItem from="1750407868896" duration="86000" />
       <workItem from="1750407992783" duration="37000" />
+      <workItem from="1751473517886" duration="249000" />
+      <workItem from="1751629112095" duration="2677000" />
     </task>
+    <task id="LOCAL-00001" summary="Started StreamApi">
+      <option name="closed" value="true" />
+      <created>1751473649361</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751473649361</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Started StreamApi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started StreamApi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
