@@ -38,7 +38,6 @@ public class Database implements Runnable {
                 System.out.println("Update" + Workers);
                 break;
         }
-
     }
 
     public String getName() {

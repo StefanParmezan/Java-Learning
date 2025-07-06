@@ -5,7 +5,8 @@ public enum Products {
     BANANA(30),
     MILK(70),
     BREAD(40),
-    SUGAR(80);
+    SUGAR(80),
+    GOLD_APPLE(400);
     int price;
 
     private Products(int price){

@@ -11,7 +11,6 @@ public class Timer implements Runnable {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-
     }
 
     public Timer(Integer time, Integer repeats) {
