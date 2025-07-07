@@ -1,6 +1,7 @@
 package StreamAPI.Day2;
 
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 class WorkingWithList {
@@ -25,6 +26,10 @@ class WorkingWithList {
     }
 
     public List<String> sortByAlphabet(List<String> input){
-        return input.stream().sorted().toList();
+        return input.stream().filter(s -> s.matches("^\\D+$")).sorted().toList();
+    }
+
+    public List<Integer> sortByInteger(List<String> input){
+        return input.stream().filter(s -> s.matches("\\d+")).map(Integer::parseInt).toList();
     }
  }

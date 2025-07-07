@@ -12,10 +12,14 @@ public class Main {
         list.add("Africa");
         list.add("Cherry");
         list.add("Apple");
+        list.add("1");
+        list.add("1000");
+        list.add("5");
         System.out.println(workingWithList.filterByValue(list, "A"));
         System.out.println(workingWithList.toUpperList(list));
         System.out.println(workingWithList.removeDuplicates(list));
         System.out.println(workingWithList.toStupidList(list));
         System.out.println(workingWithList.sortByAlphabet(list));
+        System.out.println(workingWithList.sortByInteger(list));
     }
 }
