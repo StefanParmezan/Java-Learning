@@ -16,7 +16,8 @@ public class ShopService {
     }
 
     public int buyRandomProductByCategory(String category) {
-        return shopData.getProducts().entrySet().stream().filter(s -> s.getValue().equalsIgnoreCase(category)).findAny().map(s -> s.getKey().getPrice()).stream().mapToInt(Integer::intValue).sum();
+        return shopData.getProducts()
+                .entrySet().stream().filter(s -> s.getValue().equalsIgnoreCase(category)).findAny().map(s -> s.getKey().getPrice()).stream().mapToInt(Integer::intValue).sum();
     }
 
     public boolean allProductsMorePrice (int price){

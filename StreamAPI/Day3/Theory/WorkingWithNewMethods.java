@@ -1,4 +1,4 @@
-package StreamAPI.Day3;
+package StreamAPI.Day3.Theory;
 
 import java.util.List;
 
@@ -10,9 +10,13 @@ public class WorkingWithNewMethods {
         return input.stream().limit(count).toList();
     }
 
-    public Integer findRandom(List<Integer> input){return input.stream().findAny().get();}
+    public Integer findAnyValue(List<Integer> input){return input.stream().findAny().get();}
 
     public static WorkingWithNewMethods getInstance() {
         return instance;
     }
+
+
+
+
 }
