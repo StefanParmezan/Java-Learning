@@ -1,10 +1,9 @@
-package StreamAPI.Day3.HomeWork;
+package StreamAPI.Day3.HomeWork.Other;
 
 import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 class Main {
     static void main(String[] args) {

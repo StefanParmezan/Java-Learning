@@ -1,4 +1,4 @@
-package StreamAPI.Day3.HomeWork;
+package StreamAPI.Day3.HomeWork.Other;
 class User {
     private String name;
     private Integer age;
