@@ -1,4 +1,4 @@
-package StreamAPI.Day3.HomeWork.Other;
+package StreamAPI.Day3.HomeWork.Other.Other1;
 
 import java.util.Comparator;
 import java.util.LinkedHashMap;
