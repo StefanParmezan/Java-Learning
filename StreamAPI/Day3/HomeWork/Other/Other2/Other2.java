@@ -10,6 +10,14 @@ public class Other2 {
         System.out.println(
                 names.stream().filter(s -> s.startsWith("A")).collect(Collectors.toMap(s -> s, String::length))
         );
+        String replace = names.stream().max(Comparator.comparingInt(String::length)).get();
+        System.out.println(
+                "grouped list: " + names.stream().filter(s -> s.startsWith("A")).map(String::toUpperCase).collect(Collectors.groupingBy(String::length)) +
+                "\nmax length word:  " + names.stream().max(Comparator.comparingInt(String::length)).get() +
+                "\nsymbols count: " + names.stream().filter(s -> !s.equals(replace)).mapToInt(String::length).sum() +
+                "\nhave words < 5: " + names.stream().allMatch(s -> s.length() < 5) +
+                "\nto string: " + names.stream().collect(Collectors.joining(", "))
+        );
     }
 }
 
