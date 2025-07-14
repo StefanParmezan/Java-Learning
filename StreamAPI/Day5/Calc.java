@@ -8,5 +8,6 @@ public class Calc {
         List<Integer> list = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9);
         System.out.println(Calculator.getInstance().multiply(list));
         System.out.println(Calculator.getInstance().add(list));
+        //Yea Day5 finished!
     }
 }
