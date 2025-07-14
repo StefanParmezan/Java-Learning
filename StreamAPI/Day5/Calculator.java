@@ -16,7 +16,7 @@ public class Calculator {
 
     protected int multiply(List<Integer> input) throws ExecutionException, InterruptedException {
         ExecutorService executorService = Executors.newVirtualThreadPerTaskExecutor();
-        return executorService.submit(() -> input.stream().reduce(1,(a, b) -> a * b, Integer::sum)).get();
+        return executorService.submit(() -> input.stream().reduce(1,(a, b) -> a * b)).get();
     }
 
     protected static Calculator getInstance(){
