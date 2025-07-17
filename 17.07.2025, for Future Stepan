@@ -1,0 +1,33 @@
+# Java Learning Journey
+
+I've completed the Java Core section in just 5 months — it was a challenging, deep, and incredibly interesting experience.
+This repository contains my practice projects, exercises, and solutions from the Java Core learning path, including topics like:
+
+- Object-Oriented Programming (OOP)
+- Collections framework
+- Stream API
+- Functional programming
+- Exception handling
+- Working with Optional
+- Multithreading and parallel streams
+- Working with data structures and algorithms
+
+All the code here shows my understanding of Java fundamentals and my approach to problem-solving using modern Java practices.
+
+Now I'm ready to move on to the next big step — **Spring Boot** 🚀
+I'm excited to start building real-world applications and dive into backend development with Spring.
+
+Feel free to check out my code, run the examples, and see how I've grown as a developer in just a few months of focused learning.
+
+I'm not just learning Java — I'm building a foundation for a future career in software development.
+
+# Contents
+- [Stream API](src/StreamAPI)
+- [OOP](src/OverLoading&InheritanceAndOverriding&Interfaces&OverLoading&OurFiles)
+- [Collections](src/CollectionsFramework)
+- [Optional and Functional Programming](src/Optionals&OurFiles)
+- [Projects](GitHub)
+
+# Next Step: Spring Boot
+I'm about to start learning Spring Boot and building real backend applications.
+If you're a mentor or fellow learner — I'd be happy to hear your advice or suggestions for the next steps!
